@@ -14,19 +14,7 @@
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 
-	<!-- 
-	Default Theme Style 
-	You can change the style.css (default color purple) to one of these styles
-	
-	1. pink.css
-	2. blue.css
-	3. turquoise.css
-	4. orange.css
-	5. lightblue.css
-	6. brown.css
-	7. green.css
 
-	-->
 	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
@@ -39,37 +27,10 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	<head>
+	
 	<body>
 	<header role="banner" id="fh5co-header">
-			<div class="container">
-				<!-- <div class="row"> -->
-			    <nav class="navbar navbar-default">
-		        <div class="navbar-header">
-		        	<!-- Mobile Toggle Menu Button -->
-					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-				
-
-					<a class="navbar-brand" href="index.html">HiLuluArtisanSoap&nbsp;</a> 
-		        </div>
-		        <div id="navbar" class="navbar-collapse collapse">
-		          <ul class="nav navbar-nav navbar-right">
-		            <li class="active"><a href="#" data-nav-section=""><span></span></a></li>
-		            <li><a href="#" data-nav-section="soap"><span>Handmade Artisan Soap's</span></a></li>
-		            <li><a href="#" data-nav-section="testimonials"><span>Testimonials</span></a></li>
-		            <li><a href="#" data-nav-section="pricing"><span>Pricing</span></a></li>
-		            <li><a href="#" data-nav-section="aboutbailey"><span>About Bailey</span></a></li>
-		            <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
-		          </ul>
-		        </div>
-			    </nav>
-			  <!-- </div> -->
-		  </div>
+			<div class="container">			
 	</header>
 
 	<section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_2.jpg);" data-stellar-background-ratio="0.5">
@@ -82,7 +43,7 @@
                             <div class="logo">
                                 <img src="logo.png" alt="Logo">
                               </div>
-							<h1 class="to-animate">Hi Lulu Soaps</h1>
+							<h1 class="to-animate"></h1>
 							<h2 class="to-animate">Handcrafted Soaps Made with Natural Ingredients - Indulge in the Luxurious Lather of Artisan Soaps</h2>
 
                               
@@ -173,18 +134,7 @@
 	</section>
 
 
-	<section id="fh5co-Pricing" data-section="Pricing">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 section-heading text-left">
-					<h2 class=" left-border to-animate">Pricing</h2>
-					<div class="row">
-						<div class="col-md-8 subtext to-animate">
-							<h3>Our soaps are crafted using high-quality, natural ingredients, and are made in small batches to ensure quality and freshness. Our soaps range from $6 to $10, depending on the ingredients used and the complexity of the design, but regardless of the price, every bar is a luxurious.</h3>
-						</div>
-					</div>
-				</div>
-			</div>
+
 
 				
 			</div>
@@ -211,9 +161,9 @@
 						<span class="fh5co-position"></span>
 						<p>Meet Bailey, 
 
-                            She also enjoys spending time with her beloved dog Poppy and planning outdoor adventures with her fiancé. When she's not working or exploring the great outdoors, you can find her experimenting with new crafting projects, indulging in her guilty pleasure of reality TV, or perfecting her soap making skills.
-                            
-                            Bailey is a multi-talented individual who knows how to make the most of her time and is always looking for new ways to grow and learn. Follow her journey and get inspired to pursue your own passions.</p>
+                            She also enjoys spending time with her beloved dog Poppy and planning outdoor adventures with her fiancé. </p>
+                        <p>When she's not working or exploring the great outdoors, you can find her experimenting with new crafting projects, indulging in her guilty pleasure of reality TV, or perfecting her soap making skills.</p>
+                        <p>Bailey is a multi-talented individual who knows how to make the most of her time and is always looking for new ways to grow and learn. Follow her journey and get inspired to pursue your own passions.</p>
 						
 
 							<a href="https://www.instagram.com/HiLuluArtisanSoap">
@@ -233,72 +183,57 @@
 	</section>
 	
 
-	<section id="fh5co-contact" data-section="contact">
-		<div class="containerr">
-			<div class="row">
-				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate"></h2>
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3></h3>
-						</div>
+	<head>
+		<title>Contact Us</title>
+		<!-- Add any necessary meta tags and links to stylesheets -->
+	</head>
+	<body>
+		<section id="contact" data-section="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 section-heading text-center">
+						<h2>Contact Us</h2>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 subtext">
+								<h3>We would love to hear from you</h3>
+							</div>
+						
+					<div class="col-md-6">
+						<h3>Contact Form</h3>
+						<form id="contact-form" action="submit-form.php" method="post">
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" class="form-control" id="name" name="name" required>
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" id="email" name="email" required>
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">Send</button>
+						</form>
 					</div>
 				</div>
 			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-6 to-animate">
-					<h3>Contact Info</h3>
-					<ul class="fh5co-contact-info">
-						<li class="fh5co-contact-address ">
-							<i class="icon-home"></i>
-							Toronto Ontario, <br> Canada
-						</li>
-						<li><i class="icon-phone"></i> (123) 465-6789</li>
-						<li><i class="icon-envelope"></i>lilulu@gmail.com</li>
-						<li><i class="icon-globe"></i> <a href="https://www.instagram.com/hiluluartisansoap/?igshid=MWI4MTIyMDE%3D" target="_blank">Instagram</a></li>
-					</ul>
-				</div>
+		</section>
+	</body>
 
-				<div class="col-md-6 to-animate">
-					<h3>Contact Form</h3>
-					<div class="form-group ">
-						<label for="name" class="sr-only">Name</label>
-						<input id="name" class="form-control" placeholder="Name" type="text">
-					</div>
-					<div class="form-group ">
-						<label for="email" class="sr-only">Email</label>
-						<input id="email" class="form-control" placeholder="Email" type="email">
-					</div>
-					<div class="form-group ">
-						<label for="phone" class="sr-only">Phone</label>
-						<input id="phone" class="form-control" placeholder="Phone" type="text">
-					</div>
-					<div class="form-group ">
-						<label for="message" class="sr-only">Message</label>
-						<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder=""></textarea>
-					</div>
-					<div class="form-group ">
-						<input class="btn btn-primary btn-lg" value="Send Message" type="submit">
-					</div>
-					</div>
-				</div>
 
-			</div>
-		</div>
-		<div id="map" class="to-animate"></div>
-	</section>
 	
 	
 	<footer id="footer" role="contentinfo">
-		<a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
+	
 		<div class="container">
 			<div class="">
-				<div class="col-md-12 text-center">
-					<p>&copy;  <br>Created by <a href="http://gremlindesigns.ca" target="_blank">GremlinDesigns</a> </br> </p>
+			
+					<p>&copy;  <br> <a href="http://gremlindesigns.ca" target="_blank">GremlinDesigns</a> </br> </p>
 					<a href="https://www.instagram.com/elliesgremlindesigns">
 						<img src="icon-instagram.png" alt="Instagram logo" width="52" height="52">
 					  </a>
-					  <a href="https://www.https://github.com/RaccoonBride">
+					  <a href="https://github.com/RaccoonBride">
 						<img src="icon-github.png" alt="github logo" width="52" height="52">
 					  </a>
 
