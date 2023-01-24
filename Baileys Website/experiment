@@ -1,0 +1,46 @@
+<section id="fh5co-contact" class="fh5co-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="section-heading">Contact Information</h2>
+                <ul class="contact-info">
+                    <li>
+                        <i class="icon-home"></i>
+                        Toronto, Ontario, Canada
+                    </li>
+                    <li>
+                        <i class="icon-phone"></i>
+                        (123) 465-6789
+                    </li>
+                    <li>
+                        <i class="icon-envelope"></i>
+                        lilulu@gmail.com
+                    </li>
+                    <li>
+                        <i class="icon-globe"></i>
+                        <a href="https://www.instagram.com/hiluluartisansoap/?igshid=MWI4MTIyMDE%3D" target="_blank">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="section-heading">Send us a message</h2>
+                <form action="#">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="map"></div>
+</section>
